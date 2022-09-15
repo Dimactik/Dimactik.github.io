@@ -44,13 +44,14 @@ input[placeholder] {
 .plusLow {
     position: absolute;
     right: 30px;
-    bottom: 4px; 
+    bottom: 10px; 
     background-color: white;
     color: lightgray;
     font-size: xx-large;
     padding: 0;
     border: none;
     cursor: pointer;
+    line-height: 0.75;
 }
 
 .plusLow:hover {
@@ -58,7 +59,7 @@ input[placeholder] {
 }
 
 .plusLow:active {
-    bottom: 1px;
+    bottom: 5px;
 }
 
 .plusHigh {
@@ -69,8 +70,9 @@ input[placeholder] {
     color: lightgray;
     font-size: xx-large;
     padding: 0;    
-    bottom: 4px;
+    bottom: 10px;
     cursor: pointer;
+    line-height: 0.75;
 
 }
 
@@ -79,7 +81,7 @@ input[placeholder] {
 }
 
 .plusHigh:active {
-    bottom: 1px;
+    bottom: 5px;
 }
 
 .crest {
