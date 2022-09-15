@@ -38,12 +38,13 @@ input[placeholder] {
 
 #divTaskerLow {
     position: relative;
+    margin-bottom: 13px;
 }
 
 .plusLow {
     position: absolute;
-    right: 6%;
-    bottom: 10%;
+    right: 30px;
+    bottom: 4px; 
     background-color: white;
     color: lightgray;
     font-size: xx-large;
@@ -57,19 +58,18 @@ input[placeholder] {
 }
 
 .plusLow:active {
-    bottom: 7%;
+    bottom: 1px;
 }
 
 .plusHigh {
-    position: relative;
-    margin-left: 90%;
+    position: absolute;
+    right: 30px;
     background-color: white;
     border: none;
     color: lightgray;
     font-size: xx-large;
     padding: 0;    
-    height: 35px;
-    bottom: 40px;
+    bottom: 4px;
     cursor: pointer;
 
 }
@@ -79,7 +79,7 @@ input[placeholder] {
 }
 
 .plusHigh:active {
-    bottom: 37px;
+    bottom: 1px;
 }
 
 .crest {
@@ -89,9 +89,9 @@ input[placeholder] {
     background-color: rgba(245, 245, 245, 0);
     color: lightgray;
     font-size:larger;
-    right: 5.4%;
+    right: 25px;
     padding: 0;
-    bottom: 30%;
+    bottom: 10px;
     cursor: pointer;
 }
 
@@ -104,7 +104,8 @@ input[placeholder] {
 }
 
 #divTaskerHigh {
-    margin-bottom: -30px;
+    position: relative;
+    margin-bottom: 13px;
 }
 
 .task {
@@ -131,7 +132,7 @@ input[placeholder] {
 
 .taskDoneRadio {
     position: absolute;
-    left: 3%;
+    left: 11px;
     top: 25%;
     padding: 0;
     height: 23px;
