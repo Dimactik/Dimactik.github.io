@@ -1,9 +1,32 @@
+<!DOCTYPE html>
 <html>
- 
-<body>
-  <h1>YOUR NAME</h1>
-  <p>Welcome to my website!</p>
-  <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
-</body>
- 
+    <head>
+        <title>ToDo</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <div class="main">
+
+
+            <h3>HIGH</h3>
+                <div id="divTaskerHigh">
+                    <form action="#" onclick="event.preventDefault()">
+                    <input id="inputHigh" type="text" size="50" placeholder="Enter important task" value="">
+                    <button class="plusHigh" onclick="add()">+</button>
+                    </form>
+                </div>
+
+            
+            <h3>LOW</h3>
+                <div id="divTaskerLow">
+                    <form action="#" onclick="event.preventDefault()">
+                    <input id="inputLow" type="text" size="50" placeholder="Enter minor task" value="">
+                    <button class="plusLow" onclick="add()">+</button>
+                    </form>
+                </div>
+        
+        
+        </div>    
+        <script src="./main.js"></script>
+    </body>
 </html>
