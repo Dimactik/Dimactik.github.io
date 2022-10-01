@@ -1,4 +1,4 @@
-const serverUrl = 'http://api.openweathermap.org/data/2.5/weather';
+const serverUrl = 'https://api.openweathermap.org/data/2.5/weather';
 let cityName = 'Boston';
 const apiKey = '5a9a938a5789404c89a17a8ca550d9a1';
 
