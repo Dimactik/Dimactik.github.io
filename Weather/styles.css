@@ -282,4 +282,5 @@ nav > a + a {
     top: 9px;
     border: none;
     cursor: pointer;
+    -webkit-appearance: none;
 }
