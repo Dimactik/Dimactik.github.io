@@ -284,7 +284,7 @@ nav > a + a {
     top: 9px;
     border: none;
     cursor: pointer;
-    color: red;
+    background-color: rgba(255, 255, 255, 0.45);
 }
 @media screen and (max-width: 480px) {
   #outer {
