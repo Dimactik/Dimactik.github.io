@@ -284,3 +284,64 @@ nav > a + a {
     cursor: pointer;
     -webkit-appearance: none;
 }
+@media screen and (max-width: 480px) {
+  #outer {
+    width: 100vw;
+    margin: 3px;
+  }
+  #container {
+    width: 100%;
+  }
+
+  #divInput {
+    width: 100%;
+  }
+
+  #divLeftSide {
+    width: 50%;
+  }
+
+  #divLeftBody {
+    width: 100%;
+  }
+
+  #tabs {
+    width: 100%;
+  }
+
+  .divTab {
+    width: 100%;
+  }
+
+  #divRightSide {
+    width: 50%;
+  }
+  #divRightHeader {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0 0 0 5px;
+    font-size: 0.9rem;
+  }
+  #divRightBody {
+    width: 100%;
+  }
+
+  .divForecast {
+    width: 100%;
+  }
+
+  #cloud {
+    padding: 0;
+    text-align: center;
+    width: 100%;
+  }
+
+  li {
+    font-size: 1rem;
+    line-height: normal;
+    margin: 0;
+    padding: 0;
+  }
+}
+
